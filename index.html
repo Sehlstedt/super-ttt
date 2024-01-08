@@ -1,0 +1,214 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+       
+       <head> 
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+       <!-- CSS file Included -->
+       <!-- JavaScript file included -->
+       <link rel="stylesheet" type="text/css" href="tic.css"> 
+       <script src="tic.js"></script>
+       <script src="resetGame.js"></script>
+       <script src="send.js"></script>
+       </head> 
+
+       <body> 
+              <div id="main"> 
+                     <h1>SUPER TIC TAC TOE v0.8 (restrictions update)</h1> 
+                     <p id="ins"></p>
+                     <br>
+                     <br> 
+                     <div class="grouper">
+                            <div class="spacer"></div>
+                            <div class = "ui"> 
+                            <div class="row"> 
+                                   <input type="text" id= "b11" 
+                                          class="cell" onclick="cc11(); setupDom(); sendto1();" readonly> 
+                                   <input type="text" id= "b12" 
+                                          class="cell" onclick="cc12(); setupDom(); sendto2();" readonly> 
+                                   <input type="text" id= "b13"
+                                          class="cell" onclick="cc13(); setupDom(); sendto3();" readonly>
+                                   <input type="text" id= "b14" 
+                                          class="cell" onclick="cc14(); setupDom(); sendto1();" readonly>
+                                   <input type="text" id= "b15" 
+                                          class="cell" onclick="cc15(); setupDom(); sendto2();" readonly>
+                                   <input type="text" id= "b16" 
+                                          class="cell" onclick="cc16(); setupDom(); sendto3();" readonly> 
+                                   <input type="text" id= "b17" 
+                                          class="cell" onclick="cc17(); setupDom(); sendto1();" readonly>
+                                   <input type="text" id= "b18" 
+                                          class="cell" onclick="cc18(); setupDom(); sendto2();" readonly>
+                                   <input type="text" id= "b19" 
+                                          class="cell" onclick="cc19(); setupDom(); sendto3();" readonly>
+                            </div>
+                            <div class="row"> 
+                                   <input type="text" id= "b21" 
+                                          class="cell" onclick="cc21(); setupDom(); sendto4();" readonly> 
+                                   <input type="text" id= "b22" 
+                                          class="cell" onclick="cc22(); setupDom(); sendto5();" readonly> 
+                                   <input type="text" id= "b23"
+                                          class="cell" onclick="cc23(); setupDom(); sendto6();" readonly>
+                                   <input type="text" id= "b24" 
+                                          class="cell" onclick="cc24(); setupDom(); sendto4();" readonly>
+                                   <input type="text" id= "b25" 
+                                          class="cell" onclick="cc25(); setupDom(); sendto5();" readonly>
+                                   <input type="text" id= "b26" 
+                                          class="cell" onclick="cc26(); setupDom(); sendto6();" readonly> 
+                                   <input type="text" id= "b27" 
+                                          class="cell" onclick="cc27(); setupDom(); sendto4();" readonly>
+                                   <input type="text" id= "b28" 
+                                          class="cell" onclick="cc28(); setupDom(); sendto5();" readonly>
+                                   <input type="text" id= "b29" 
+                                          class="cell" onclick="cc29(); setupDom(); sendto6();" readonly>
+                            </div>
+                            <div class="row">
+                                   <input type="text" id= "b31" 
+                                          class="cell" onclick="cc31(); setupDom(); sendto7();" readonly> 
+                                   <input type="text" id= "b32" 
+                                          class="cell" onclick="cc32(); setupDom(); sendto8();" readonly> 
+                                   <input type="text" id= "b33"
+                                          class="cell" onclick="cc33(); setupDom(); sendto9();" readonly>
+                                   <input type="text" id= "b34" 
+                                          class="cell" onclick="cc34(); setupDom(); sendto7();" readonly>
+                                   <input type="text" id= "b35" 
+                                          class="cell" onclick="cc35(); setupDom(); sendto8();" readonly>
+                                   <input type="text" id= "b36" 
+                                          class="cell" onclick="cc36(); setupDom(); sendto9();" readonly> 
+                                   <input type="text" id= "b37" 
+                                          class="cell" onclick="cc37(); setupDom(); sendto7();" readonly>
+                                   <input type="text" id= "b38" 
+                                          class="cell" onclick="cc38(); setupDom(); sendto8();" readonly>
+                                   <input type="text" id= "b39" 
+                                          class="cell" onclick="cc39(); setupDom(); sendto9();" readonly>
+                            </div>
+                            <div class="row"> 
+                                   <input type="text" id= "b41" 
+                                          class="cell" onclick="cc41(); setupDom(); sendto1();" readonly> 
+                                   <input type="text" id= "b42" 
+                                          class="cell" onclick="cc42(); setupDom(); sendto2();" readonly> 
+                                   <input type="text" id= "b43"
+                                          class="cell" onclick="cc43(); setupDom(); sendto3();" readonly>
+                                   <input type="text" id= "b44" 
+                                          class="cell" onclick="cc44(); setupDom(); sendto1();" readonly>
+                                   <input type="text" id= "b45" 
+                                          class="cell" onclick="cc45(); setupDom(); sendto2();" readonly>
+                                   <input type="text" id= "b46" 
+                                          class="cell" onclick="cc46(); setupDom(); sendto3();" readonly> 
+                                   <input type="text" id= "b47" 
+                                          class="cell" onclick="cc47(); setupDom(); sendto1();" readonly>
+                                   <input type="text" id= "b48" 
+                                          class="cell" onclick="cc48(); setupDom(); sendto2();" readonly>
+                                   <input type="text" id= "b49" 
+                                          class="cell" onclick="cc49(); setupDom(); sendto3();" readonly>
+                            </div>
+                            <div class="row"> 
+                                   <input type="text" id= "b51" 
+                                          class="cell" onclick="cc51(); setupDom(); sendto4();" readonly> 
+                                   <input type="text" id= "b52" 
+                                          class="cell" onclick="cc52(); setupDom(); sendto5();" readonly> 
+                                   <input type="text" id= "b53"
+                                          class="cell" onclick="cc53(); setupDom(); sendto6();" readonly>
+                                   <input type="text" id= "b54" 
+                                          class="cell" onclick="cc54(); setupDom(); sendto4();" readonly>
+                                   <input type="text" id= "b55" 
+                                          class="cell" onclick="cc55(); setupDom(); sendto5();" readonly>
+                                   <input type="text" id= "b56" 
+                                          class="cell" onclick="cc56(); setupDom(); sendto6();" readonly> 
+                                   <input type="text" id= "b57" 
+                                          class="cell" onclick="cc57(); setupDom(); sendto4();" readonly>
+                                   <input type="text" id= "b58" 
+                                          class="cell" onclick="cc58(); setupDom(); sendto5();" readonly>
+                                   <input type="text" id= "b59" 
+                                          class="cell" onclick="cc59(); setupDom(); sendto6();" readonly>
+                            </div>
+                            <div class="row"> 
+                                   <input type="text" id= "b61" 
+                                          class="cell" onclick="cc61(); setupDom(); sendto7();" readonly> 
+                                   <input type="text" id= "b62" 
+                                          class="cell" onclick="cc62(); setupDom(); sendto8();" readonly> 
+                                   <input type="text" id= "b63"
+                                          class="cell" onclick="cc63(); setupDom(); sendto9();" readonly>
+                                   <input type="text" id= "b64" 
+                                          class="cell" onclick="cc64(); setupDom(); sendto7();" readonly>
+                                   <input type="text" id= "b65" 
+                                          class="cell" onclick="cc65(); setupDom(); sendto8();" readonly>
+                                   <input type="text" id= "b66" 
+                                          class="cell" onclick="cc66(); setupDom(); sendto9();" readonly> 
+                                   <input type="text" id= "b67" 
+                                          class="cell" onclick="cc67(); setupDom(); sendto7();" readonly>
+                                   <input type="text" id= "b68" 
+                                          class="cell" onclick="cc68(); setupDom(); sendto8();" readonly>
+                                   <input type="text" id= "b69" 
+                                          class="cell" onclick="cc69(); setupDom(); sendto9();" readonly>
+                            </div>
+                            <div class="row"> 
+                                   <input type="text" id= "b71" 
+                                          class="cell" onclick="cc71(); setupDom(); sendto1();" readonly> 
+                                   <input type="text" id= "b72" 
+                                          class="cell" onclick="cc72(); setupDom(); sendto2();" readonly> 
+                                   <input type="text" id= "b73"
+                                          class="cell" onclick="cc73(); setupDom(); sendto3();" readonly>
+                                   <input type="text" id= "b74" 
+                                          class="cell" onclick="cc74(); setupDom(); sendto1();" readonly>
+                                   <input type="text" id= "b75" 
+                                          class="cell" onclick="cc75(); setupDom(); sendto2();" readonly>
+                                   <input type="text" id= "b76" 
+                                          class="cell" onclick="cc76(); setupDom(); sendto3();" readonly> 
+                                   <input type="text" id= "b77" 
+                                          class="cell" onclick="cc77(); setupDom(); sendto1();" readonly>
+                                   <input type="text" id= "b78" 
+                                          class="cell" onclick="cc78(); setupDom(); sendto2();" readonly>
+                                   <input type="text" id= "b79" 
+                                          class="cell" onclick="cc79(); setupDom(); sendto3();" readonly>
+                            </div>
+                            <div class="row"> 
+                                   <input type="text" id= "b81" 
+                                          class="cell" onclick="cc81(); setupDom(); sendto4();" readonly> 
+                                   <input type="text" id= "b82" 
+                                          class="cell" onclick="cc82(); setupDom(); sendto5();" readonly> 
+                                   <input type="text" id= "b83"
+                                          class="cell" onclick="cc83(); setupDom(); sendto6();" readonly>
+                                   <input type="text" id= "b84" 
+                                          class="cell" onclick="cc84(); setupDom(); sendto4();" readonly>
+                                   <input type="text" id= "b85" 
+                                          class="cell" onclick="cc85(); setupDom(); sendto5();" readonly>
+                                   <input type="text" id= "b86" 
+                                          class="cell" onclick="cc86(); setupDom(); sendto6();" readonly> 
+                                   <input type="text" id= "b87" 
+                                          class="cell" onclick="cc87(); setupDom(); sendto4();" readonly>
+                                   <input type="text" id= "b88" 
+                                          class="cell" onclick="cc88(); setupDom(); sendto5();" readonly>
+                                   <input type="text" id= "b89" 
+                                          class="cell" onclick="cc89(); setupDom(); sendto6();" readonly>
+                            </div> 
+                            <div class="row"> 
+                                   <input type="text" id= "b91" 
+                                          class="cell" onclick="cc91(); setupDom(); sendto7();" readonly> 
+                                   <input type="text" id= "b92" 
+                                          class="cell" onclick="cc92(); setupDom(); sendto8();" readonly> 
+                                   <input type="text" id= "b93"
+                                          class="cell" onclick="cc93(); setupDom(); sendto9();" readonly>
+                                   <input type="text" id= "b94" 
+                                          class="cell" onclick="cc94(); setupDom(); sendto7();" readonly>
+                                   <input type="text" id= "b95" 
+                                          class="cell" onclick="cc95(); setupDom(); sendto8();" readonly>
+                                   <input type="text" id= "b96" 
+                                          class="cell" onclick="cc96(); setupDom(); sendto9();" readonly> 
+                                   <input type="text" id= "b97" 
+                                          class="cell" onclick="cc97(); setupDom(); sendto7();" readonly>
+                                   <input type="text" id= "b98" 
+                                          class="cell" onclick="cc98(); setupDom(); sendto8();" readonly>
+                                   <input type="text" id= "b99" 
+                                          class="cell" onclick="cc99(); setupDom(); sendto9();" readonly>
+                            </div>  
+                            </div>
+                            <div class="spacer">
+                                   <br>
+                                   <button id="but" onclick="resetGame()"> 
+                                   RESET
+                                   </button>  
+                                   <p id="print"></p>
+                            </div>
+                     </div>
+              </div> 
+       </body> 
+</html>

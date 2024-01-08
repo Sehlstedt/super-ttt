@@ -1,0 +1,136 @@
+h1 { 
+    color: orangered; 
+    margin-bottom: -5px; 
+} 
+p { 
+    margin-bottom: -10px; 
+} 
+.ui { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    width: 46%;
+
+} 
+.row { 
+    display: flex;
+} 
+.grouper {
+    display: flex;
+}
+.cell { 
+    border: none; 
+    width: 80px; 
+    height: 80px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 24px; 
+    text-align: center; 
+    cursor: pointer; 
+}   
+.cell:active { 
+    outline: none; 
+} 
+/* 3*3 Grid */
+#b11, #b14, #b17, #b41, #b44, #b47, #b71, #b74, #b77 { 
+    border-top: 2px solid gray;
+    border-bottom: 1px solid gray;
+    border-left: 2px solid gray; 
+    border-right: 1px solid gray; 
+} 
+#b12, #b15, #b18, #b42, #b45, #b48, #b72, #b75, #b78 { 
+    border-top: 2px solid gray;
+    border-bottom: 1px solid gray;
+} 
+#b13, #b16, #b19, #b43, #b46, #b49, #b73, #b76, #b79 { 
+    border-top: 2px solid gray;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray; 
+    border-right: 2px solid gray; 
+} 
+
+#b21, #b24, #b27, #b51, #b54, #b57, #b81, #b84, #b87 { 
+    border-top: 1px transparent gray; 
+    border-bottom: 1px solid gray; 
+    border-left: 2px solid gray;
+    border-right: 1px transparent gray;
+} 
+#b22, #b25, #b28, #b52, #b55, #b58, #b82, #b85, #b88 { 
+    border-top: 1px tran gray; 
+    border-bottom: 1px solid gray; 
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+} 
+#b23, #b26, #b29, #b53, #b56, #b59, #b83, #b86, #b89 { 
+    border-top: 1px transparent gray; 
+    border-bottom: 1px solid gray; 
+    border-left: 1px transparent gray;
+    border-right: 2px solid gray;
+}
+
+#b31, #b34, #b37, #b61, #b64, #b67, #b91, #b94, #b97 { 
+    border-top: 1px transparent gray; 
+    border-bottom: 2px solid gray; 
+    border-left: 2px solid gray;
+    border-right: 1px transparent gray;
+} 
+#b32, #b35, #b38, #b62, #b65, #b68, #b92, #b95, #b98 { 
+    border-top: 1px transparent gray; 
+    border-bottom: 2px solid gray; 
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+} 
+#b33, #b36, #b39, #b63, #b66, #b69, #b93, #b96, #b99 { 
+    border-top: 1px transparent gray; 
+    border-bottom: 2px solid gray; 
+    border-left: 1px transparent gray;
+    border-right: 2px solid gray;
+}
+
+        
+
+
+/* Reset Button */
+#but { 
+    box-sizing: border-box; 
+    width: 95px; 
+    height: 40px; 
+    border: 1px solid dodgerblue; 
+    margin-left: auto; 
+    border-radius: 8px; 
+    font-family: Verdana, 
+        Geneva, Tahoma, sans-serif; 
+  
+    background-color: whitesmoke; 
+    color: dodgerblue; 
+    font-size: 20px; 
+    cursor: pointer; 
+} 
+  
+/* Player turn space */
+#print { 
+    font-family: Verdana, 
+        Geneva, Tahoma, sans-serif; 
+    color: dodgerblue; 
+    font-size: 20px; 
+} 
+  
+/* Main Container */
+#main { 
+    text-align: center;
+} 
+
+/* Game Instruction Text */
+#ins { 
+    font-family: Verdana,Geneva,  
+                    Tahoma, sans-serif; 
+    color: dodgerblue; 
+}
+
+.spacer {
+    width: 27%;
+    height: inherit;
+    background-color: palegreen;
+
+}
