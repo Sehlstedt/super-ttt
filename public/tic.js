@@ -869,12 +869,12 @@ function setupDom() {
 
         g2 = 1;
         //Disable remaining cells in game
-        b11btn.disabled = true; 
-        b12btn.disabled = true; 
-        b13btn.disabled = true; 
-        b21btn.disabled = true; 
-        b22btn.disabled = true; 
-        b23btn.disabled = true; 
+        b14btn.disabled = true; 
+        b15btn.disabled = true; 
+        b16btn.disabled = true; 
+        b24btn.disabled = true; 
+        b25btn.disabled = true; 
+        b26btn.disabled = true; 
     
         //Mark winning symbols with red
         b31btn.style.color = "red"; 
@@ -886,12 +886,12 @@ function setupDom() {
             
         g2 = 1;
         //Disable remaining cells in game
-        b11btn.disabled = true; 
-        b12btn.disabled = true; 
-        b21btn.disabled = true; 
-        b22btn.disabled = true; 
-        b31btn.disabled = true; 
-        b32btn.disabled = true; 
+        b14btn.disabled = true; 
+        b15btn.disabled = true; 
+        b24btn.disabled = true; 
+        b25btn.disabled = true; 
+        b34btn.disabled = true; 
+        b35btn.disabled = true; 
     
         //Mark winning symbols with red
         b16btn.style.color = "red"; 
